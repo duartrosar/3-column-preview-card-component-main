@@ -1,0 +1,15 @@
+@use '../abstracts/abstracts' as *;
+
+h1 {
+    font-family: $secondary-font;
+    color: $light-gray;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+p {
+    font-family: $primary-font;
+    color: $trans-white;
+    line-height: 1.7;
+    font-size: 15px;
+}

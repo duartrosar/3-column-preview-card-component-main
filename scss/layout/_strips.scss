@@ -1,0 +1,40 @@
+@use '../abstracts/abstracts' as *;
+
+.strip {
+    padding: 3em 3em;
+    &.left {
+        background-color: $primary-orange;
+        border-radius: 10px 10px 0 0;
+        .btn {
+            color: $primary-orange;
+        }
+    }
+    &.mid {
+        background-color: $primary-cyan;
+        .btn {
+            color: $primary-cyan;
+        }
+    }
+    &.right {
+        background-color: $dark-cyan;
+        border-radius: 0 0 10px 10px;
+        .btn {
+            color: $dark-cyan;
+        }
+    }
+
+    &-icon {
+        img {
+            width: 50px;
+        }
+    } 
+    &-title {
+        margin: 2em 0;
+    }
+    &-content {
+
+    }
+    &-btn {
+        margin-top: 1.5em;
+    }
+}

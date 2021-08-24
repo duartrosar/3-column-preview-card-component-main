@@ -1,0 +1,13 @@
+@use '../abstracts/abstracts' as *;
+
+.btn {
+    background-color: $light-gray;
+    padding: 0.8em 2em;
+    border-radius: 30px;
+    border: 2px $light-gray solid;
+    font-family: $primary-font;
+    &:hover {
+        background-color: transparent;
+        color: $light-gray !important;
+    }
+}

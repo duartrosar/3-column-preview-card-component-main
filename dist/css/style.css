@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  line-height: 1;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.container {
+  margin: 3em 1.5em;
+}
+
+.strip {
+  padding: 3em 3em;
+}
+.strip.left {
+  background-color: #e38826;
+  border-radius: 10px 10px 0 0;
+}
+.strip.left .btn {
+  color: #e38826;
+}
+.strip.mid {
+  background-color: #006970;
+}
+.strip.mid .btn {
+  color: #006970;
+}
+.strip.right {
+  background-color: #004241;
+  border-radius: 0 0 10px 10px;
+}
+.strip.right .btn {
+  color: #004241;
+}
+.strip-icon img {
+  width: 50px;
+}
+.strip-title {
+  margin: 2em 0;
+}
+.strip-btn {
+  margin-top: 1.5em;
+}
+
+.btn {
+  background-color: #f2f2f2;
+  padding: 0.8em 2em;
+  border-radius: 30px;
+  border: 2px #f2f2f2 solid;
+  font-family: "Lexend Deca", sans-serif;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #f2f2f2 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
