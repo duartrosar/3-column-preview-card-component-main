@@ -6,6 +6,7 @@
     border-radius: 30px;
     border: 2px $light-gray solid;
     font-family: $primary-font;
+    cursor: pointer;
     &:hover {
         background-color: transparent;
         color: $light-gray !important;

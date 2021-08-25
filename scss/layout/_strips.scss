@@ -1,40 +1,49 @@
 @use '../abstracts/abstracts' as *;
 
 .strip {
-    padding: 3em 3em;
-    &.left {
-        background-color: $primary-orange;
-        border-radius: 10px 10px 0 0;
-        .btn {
-            color: $primary-orange;
-        }
+  padding: 3em 3em;
+  &.left {
+    background-color: $primary-orange;
+    border-radius: 10px 10px 0 0;
+    @include mq("large") {
+      border-radius: 10px 0 0 10px;
     }
-    &.mid {
-        background-color: $primary-cyan;
-        .btn {
-            color: $primary-cyan;
-        }
+    .btn {
+      color: $primary-orange;
     }
-    &.right {
-        background-color: $dark-cyan;
-        border-radius: 0 0 10px 10px;
-        .btn {
-            color: $dark-cyan;
-        }
+  }
+  &.mid {
+    background-color: $primary-cyan;
+    .btn {
+      color: $primary-cyan;
     }
+  }
+  &.right {
+    background-color: $dark-cyan;
+    border-radius: 0 0 10px 10px;
+    @include mq("large") {
+      border-radius: 0 10px 10px 0;
+    }
+    .btn {
+      color: $dark-cyan;
+    }
+  }
 
-    &-icon {
-        img {
-            width: 50px;
-        }
-    } 
-    &-title {
-        margin: 2em 0;
+  &-icon {
+    img {
+      width: 50px;
     }
-    &-content {
-
-    }
-    &-btn {
-        margin-top: 1.5em;
-    }
+  }
+  &-title {
+    margin: 2em 0;
+  }
+  &-content {
+    @include mq("large") {
+        max-width: 228px;
+        margin-bottom: 5em;
+      }
+  }
+  &-btn {
+    margin-top: 1.5em;
+  }
 }
