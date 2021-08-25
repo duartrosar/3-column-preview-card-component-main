@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/duartrosar/3-column-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://vigorous-fermat-628273.netlify.app/)
+- Solution URL: [Repo](https://github.com/duartrosar/3-column-preview-card-component-main)
+- Live Site URL: [Site](https://vigorous-fermat-628273.netlify.app/)
 
 ## My process
 
