@@ -1,12 +1,12 @@
 @use '../abstracts/abstracts' as *;
 
 .container {
-    width: 90%;
-    margin: 3em auto;
+    width: 85%;
+    margin: 5em auto;
     max-width: 700px;
     @include mq("large") {
         display: flex;
-        max-width: 900px;
+        max-width: 1024px;
         margin: 13em auto 3em;
     }
 }
